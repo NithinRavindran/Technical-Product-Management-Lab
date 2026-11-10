@@ -1,0 +1,101 @@
+openapi: 3.0.3
+info:
+  title: Example Travel Booking API
+  version: 1.0.0
+  description: Synthetic portfolio example; not a production or employer API.
+servers:
+  - url: https://api.example.test/v1
+paths:
+  /bookings:
+    post:
+      summary: Create a booking request
+      operationId: createBooking
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: header
+          name: Idempotency-Key
+          required: true
+          schema:
+            type: string
+          description: Unique key for safely retrying the same create request.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateBookingRequest'
+      responses:
+        '201':
+          description: Booking created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Booking'
+        '400':
+          description: Invalid request
+        '409':
+          description: Conflicting booking state or duplicate business operation
+        '422':
+          description: Business validation failed
+        '503':
+          description: Booking provider temporarily unavailable
+  /bookings/{bookingId}:
+    get:
+      summary: Retrieve booking details
+      operationId: getBooking
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: path
+          name: bookingId
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Booking details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Booking'
+        '404':
+          description: Booking not found
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+  schemas:
+    CreateBookingRequest:
+      type: object
+      required: [travellerId, offerId, currency]
+      properties:
+        travellerId:
+          type: string
+        offerId:
+          type: string
+        currency:
+          type: string
+          minLength: 3
+          maxLength: 3
+          example: INR
+    Booking:
+      type: object
+      required: [bookingId, status, currency]
+      properties:
+        bookingId:
+          type: string
+          example: BK-1042
+        status:
+          type: string
+          enum: [PENDING, CONFIRMED, FAILED, CANCELLED]
+        currency:
+          type: string
+          example: INR
+        totalAmount:
+          type: number
+          minimum: 0
+        updatedAt:
+          type: string
+          format: date-time
