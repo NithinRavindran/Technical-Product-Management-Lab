@@ -1,3 +1,7 @@
+**Technical Product Management Lab** · [Home](../README.md) · [API fundamentals](../01-api-fundamentals/README.md) · [System design](../04-system-design/README.md)
+
+---
+
 # 07 — Product Case Studies
 
 These case studies demonstrate structured product reasoning using familiar industry workflows. They are reconstructed, synthetic portfolio artefacts. They do not reproduce confidential employer materials or claim that every diagram, endpoint or requirement was deployed in production.
