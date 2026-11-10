@@ -1,3 +1,7 @@
+**Technical Product Management Lab** · [Home](../README.md) · [Next: API documentation →](../02-api-documentation/README.md)
+
+---
+
 # 01 — API Fundamentals
 
 ## Why a Product Manager needs API literacy
