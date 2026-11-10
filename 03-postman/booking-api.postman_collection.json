@@ -1,0 +1,39 @@
+{
+  "info": {
+    "name": "Technical Product Management Lab - Example Booking API",
+    "description": "Synthetic request examples only. Uses api.example.test; not a live API.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {"key": "baseUrl", "value": "https://api.example.test/v1"},
+    {"key": "bookingId", "value": "BK-1042"},
+    {"key": "accessToken", "value": ""}
+  ],
+  "item": [
+    {
+      "name": "Get booking",
+      "request": {
+        "method": "GET",
+        "header": [{"key": "Authorization", "value": "Bearer {{accessToken}}"}],
+        "url": "{{baseUrl}}/bookings/{{bookingId}}"
+      }
+    },
+    {
+      "name": "Create booking",
+      "request": {
+        "method": "POST",
+        "header": [
+          {"key": "Authorization", "value": "Bearer {{accessToken}}"},
+          {"key": "Content-Type", "value": "application/json"},
+          {"key": "Idempotency-Key", "value": "portfolio-demo-001"}
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"travellerId\": \"TR-1001\",\n  \"offerId\": \"OFF-2001\",\n  \"currency\": \"INR\"\n}",
+          "options": {"raw": {"language": "json"}}
+        },
+        "url": "{{baseUrl}}/bookings"
+      }
+    }
+  ]
+}
