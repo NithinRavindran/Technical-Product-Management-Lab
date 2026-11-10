@@ -1,3 +1,13 @@
+[← All case studies](README.md) · [Repository home](../README.md)
+
+<div align="center">
+
+![Travel technology](https://img.shields.io/badge/DOMAIN-TRAVEL%20TECH-0f766e?style=flat-square)
+![API integration](https://img.shields.io/badge/FOCUS-API%20INTEGRATION-2563eb?style=flat-square)
+![Portfolio example](https://img.shields.io/badge/ARTEFACT-ILLUSTRATIVE-64748b?style=flat-square)
+
+</div>
+
 # Case Study — Travel Booking API Integration
 
 <small>Illustrative reconstruction using synthetic workflows and example identifiers.</small>
