@@ -1,3 +1,7 @@
+**Technical Product Management Lab** · [Home](../README.md) · [Previous: API documentation](../02-api-documentation/README.md) · [Next: System design →](../04-system-design/README.md)
+
+---
+
 # 03 — Postman and API Testing
 
 ## Purpose
