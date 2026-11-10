@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520" role="img" aria-labelledby="title desc">
+<title id="title">Technical product workflow map</title>
+<desc id="desc">A product workflow from user problem and product requirements through APIs, integrations, quality checks and operational outcomes.</desc>
+<defs>
+<linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#142d4a"/><stop offset="1" stop-color="#0b1d32"/></linearGradient>
+<linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4adeb5"/><stop offset="1" stop-color="#60a5fa"/></linearGradient>
+<filter id="soft"><feGaussianBlur stdDeviation="14"/></filter>
+</defs>
+<rect width="1400" height="520" rx="24" fill="#08182a"/>
+<circle cx="700" cy="260" r="390" fill="#16466a" opacity=".15" filter="url(#soft)"/>
+<g stroke="url(#line)" stroke-width="4" fill="none" stroke-linecap="round"><path d="M265 260H335M555 260H625M845 260H915M1135 260H1205"/></g>
+<g fill="#55e6c1"><path d="M325 251l12 9-12 9z"/><path d="M615 251l12 9-12 9z"/><path d="M905 251l12 9-12 9z"/><path d="M1195 251l12 9-12 9z"/></g>
+<g fill="url(#card)" stroke="#3a6688" stroke-width="2">
+<rect x="45" y="170" width="220" height="180" rx="18"/><rect x="335" y="170" width="220" height="180" rx="18"/>
+<rect x="625" y="170" width="220" height="180" rx="18"/><rect x="915" y="170" width="220" height="180" rx="18"/>
+<rect x="1205" y="170" width="150" height="180" rx="18"/>
+</g>
+<g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">
+<g fill="#55e6c1" font-size="16" font-weight="700"><text x="155" y="210">01 · DISCOVER</text><text x="445" y="210">02 · DEFINE</text><text x="735" y="210">03 · DESIGN</text><text x="1025" y="210">04 · VALIDATE</text><text x="1280" y="210">05 · OPERATE</text></g>
+<g fill="#f2f7fc" font-size="22" font-weight="650"><text x="155" y="258">User problem</text><text x="445" y="258">Requirements</text><text x="735" y="258">APIs &amp; systems</text><text x="1025" y="258">Test &amp; release</text><text x="1280" y="258">Measure</text></g>
+<g fill="#a9c0d7" font-size="15"><text x="155" y="292">Outcomes · users</text><text x="155" y="316">constraints</text><text x="445" y="292">Stories · criteria</text><text x="445" y="316">NFRs · priorities</text><text x="735" y="292">Contracts · data</text><text x="735" y="316">dependencies</text><text x="1025" y="292">Scenarios · risks</text><text x="1025" y="316">readiness</text><text x="1280" y="292">KPIs · alerts</text><text x="1280" y="316">feedback</text></g>
+</g>
+<text x="700" y="90" fill="#e7f1fb" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="700" text-anchor="middle">FROM BUSINESS PROBLEM TO RELIABLE PRODUCT DELIVERY</text>
+<text x="700" y="445" fill="#8ca9c5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" text-anchor="middle">A product-led view of technical collaboration — engineering owns implementation decisions</text>
+</svg>
