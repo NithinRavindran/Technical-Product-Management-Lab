@@ -1,3 +1,7 @@
+**Technical Product Management Lab** · [Home](../README.md) · [Previous: API testing](../03-postman/README.md) · [Next: Integrations →](../05-integrations/README.md)
+
+---
+
 # 04 — System Design for Product Managers
 
 A PM should be able to explain the actors, systems, data boundaries, dependencies and failure paths of a feature. Engineering owns implementation choices; product helps ensure the design solves the right problem and meets user, business and operational needs.
