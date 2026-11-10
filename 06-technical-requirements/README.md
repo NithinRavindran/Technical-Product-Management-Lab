@@ -1,3 +1,7 @@
+**Technical Product Management Lab** · [Home](../README.md) · [Previous: Integrations](../05-integrations/README.md) · [Next: Case studies →](../07-product-case-studies/README.md)
+
+---
+
 # 06 — Technical Product Requirements
 
 ## Example feature brief: reliable booking creation
