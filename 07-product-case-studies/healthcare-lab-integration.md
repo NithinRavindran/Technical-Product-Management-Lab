@@ -1,3 +1,13 @@
+[← All case studies](README.md) · [Repository home](../README.md)
+
+<div align="center">
+
+![Healthcare systems](https://img.shields.io/badge/DOMAIN-HEALTHCARE%20SYSTEMS-0f766e?style=flat-square)
+![Interoperability](https://img.shields.io/badge/FOCUS-SYSTEM%20INTEGRATION-2563eb?style=flat-square)
+![Portfolio example](https://img.shields.io/badge/ARTEFACT-ILLUSTRATIVE-64748b?style=flat-square)
+
+</div>
+
 # Case Study — Healthcare Laboratory Integration
 
 <small>Illustrative reconstruction using synthetic patient, order and result data.</small>
