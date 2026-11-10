@@ -1,3 +1,7 @@
+**Technical Product Management Lab** · [Home](../README.md) · [Previous: System design](../04-system-design/README.md) · [Next: Technical requirements →](../06-technical-requirements/README.md)
+
+---
+
 # 05 — Integration Patterns and Failure Handling
 
 Integrations are product dependencies. A polished user journey can still fail when a supplier, payment provider, identity service or downstream platform is slow or inconsistent.
