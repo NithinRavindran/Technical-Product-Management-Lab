@@ -1,3 +1,7 @@
+**Technical Product Management Lab** · [Home](../README.md) · [Previous: API fundamentals](../01-api-fundamentals/README.md) · [Next: Postman →](../03-postman/README.md)
+
+---
+
 # 02 — API Documentation and OpenAPI
 
 ## What good API documentation answers
